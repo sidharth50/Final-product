@@ -1,0 +1,49 @@
+basic command
+
+    db
+        show dbs => list of DBS
+        use dbName => create / switch to other db
+        db (Global Object in mongoDB)
+
+    collection
+        create => db.createCollection('locations') = collection always plural that is 's'
+        list => show collections
+        delect all db collections => db.dropDatabase() 
+        delete single collection => db.collectionName.drop()
+    
+    document => Like JSObject (JSON) => BSON (Binary JSON)
+        create/insert
+            single => db.locations.insertOne({})
+            many => db.locations.insertMany([{...}, {...}, {...}])
+        read 
+            db.collectionName.find()  ({filter}, {projection})=> records to show use 1 else 0 or null
+            db.locations.find({city:"Mumbai"},{location:1, location_id: 1, _id:0})
+        update
+            db.locations.updateMany({city:"Mumbai"},{$set:{city:"New Mumbai"}})
+            db.locations.updateMany({},{$rename:{city:'location_city'}})
+        delete
+            db.locations.deleteOne({location: 'East Mumbai'})
+
+      id = unique + notnull => primary key
+
+     _id: ObjectId("63ee26565f59e733f8df411f") => hex code 0 1 2 3 4 5 6 7 8 9 a b c d e f 
+
+    ObjectId => document field type
+
+    63ee2656 5f59e733f8 df411f => 24 char or 12 bytes
+
+        (63ee2656) => A 4-byte timestamp, representing the ObjectId's creation, measured in seconds since the Unix epoch.
+        (5f59e733f8) => A 5-byte random value generated once per process. This random value is unique to the machine and process.
+        (df411f) => A 3-byte incrementing counter, initialized to a random value.
+
+    MongoDB Driver
+        => Lib  "Mongoose"    
+            => Async Lib
+            =>  Create Schema (Structure of collection) & Model
+            =>  location(name of collection) => city, id, location, location_id 
+            =>  pre validation (before inserting a data)
+    
+    1st => import Mongoose
+    2nd => connect to DB
+    3rd => create a schema
+    4th => create and export model

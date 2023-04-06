@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {margin:0; padding: 0;}
+
+body {
+	
+	
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+    padding-left: 200px;
+    padding-right: 1000px;
+}
+.secc{
+    margin-top: 65px;
+}
+
+.secc1{
+    margin-top: 65px;
+}
+
+.cart{
+    margin-top: 11px;
+}
+.divv1{
+    margin-right: 200px;
+}
+.divv2{
+    margin-left:50px;
+}
+.imgg{
+	width: 60px;
+	height: 60px;
+}
+
+.imgg1{
+	width: 60px;
+	height: 60px;
+	margin-right: 30px;
+}
+	p:hover {
+		color: #047BD5;
+	  }
+	 
+
+
+.carousel1{
+	height: 250px;
+}
+
+.logo{
+	width: 100px;
+	height: 38px;
+	margin-left: 20px;
+}
+.ipt{
+	width: 100vh;
+	
+}
+.sec1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    
+}
+
+.sec2{
+	margin-left: 100px;
+}
+.sec3{
+	margin-right: 100px;
+}
+
+.dv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 1050px;
+}
+.btn1{
+    display: flex;
+    margin-right: 15px;
+    padding: 16px;
+    color: white;
+    border: none;
+    background-color: transparent;
+
+}
+.btn2{
+    display: flex;
+    padding: 12px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+.art1{
+   
+    border: none;
+    
+    
+}
+.he1{
+    
+    
+    font-weight: bold;
+    
+}
+.qw{
+    margin-bottom: 20px;
+}
+.he2{
+    color: grey;
+}
+.he3{
+    
+    font-weight: 300;
+
+}
+.he33{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.sec4{
+    
+    box-shadow: 0px 0px 5px gray;
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+}
+
+.op{
+    color: grey;
+    padding-left: 15px;
+    padding-right:80px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    
+    
+}
+.hd1{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.dv1{
+    margin-top: 11px;
+}
+.dv2{
+    margin-top: 20px;
+
+}
+.dv3{
+   
+display: flex;
+margin-bottom: 20px;
+}
+.lb1{
+    margin-top: 8px;
+}
+.im1{
+    width: 120px;
+    height: 120px;
+    
+    border-radius: 30px;
+}
+.art{
+    display: flex;
+   
+    
+}
+.art3{
+    box-shadow: 0px 0px 5px gray;
+    padding-right: 80px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+	
+}   
+.hr2{
+    padding-right: 200px;
+}
+
+.pg{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.pg li{
+    margin: 0 10px;
+    box-shadow: 0 0 2px 0px gray;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.lq{
+    background-color: gainsboro;
+    color: white;
+}
+.proimg{
+	width: 150px;
+	height: 250px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+}
+.list1{
+	margin-left: 15px;
+	color: black;
+}
+.txt1{
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+.assured{
+	width: 60px;
+	height: 20px;
+	margin-left: 5px;
+	margin-top: 48px;
+}
+.h-ele{
+	margin-left: 380px;
+}
+.proitem{
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+.secz{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.logo1{
+    width: 70px;
+    height: 25px;
+    margin-left: 10px;
+}
+.crtdiv{
+    margin-top: 100px;
+    margin-left: 150px;
+    
+    margin-right: 500px;
+    
+}
+.opt{
+    margin-left: 500px;
+}
